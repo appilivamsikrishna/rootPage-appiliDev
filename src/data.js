@@ -14,7 +14,7 @@ export default {
     {
       link: "https://projects.appili.dev",
       description: "View my Projects",
-      background_picture: "projects.webp",
+      background_picture: "projects.jpg",
       background_picture_size: "cover",
       background_logo: "bulb.png",
       background_logo_size: "40%",
@@ -34,17 +34,10 @@ export default {
       description: "Try my REST APIs",
       background_logo: "API.png",
       background_logo_size: "60%",
-      background_picture: "aws.webp",
+      background_picture: "aws.jpg",
       background_picture_size: "cover",
       background_color: "#FFFFFF",
     },
-
-    // {
-    //   link: "https://twitter.com/StegSchreck",
-    //   background_logo: "Twitter.svg",
-    //   background_logo_size: "contain",
-    //   background_color: "#1DA1F2",
-    // }
   ],
   settings: {
     default_link_target: "_blank",

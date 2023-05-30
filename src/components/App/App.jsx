@@ -9,7 +9,7 @@ function App() {
     description: "View my mobile Apps",
     background_logo: "box6.png",
     background_logo_size: "16%",
-    background_picture: "appand3.jpeg",
+    background_picture: "appleApp.jpg",
     background_picture_size: "cover",
     background_color: "#FFFFFF",
   };
