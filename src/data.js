@@ -1,34 +1,52 @@
 export default {
   items: [
-    {
-      link: 'https://stegschreck.github.io/',
-      text_color: '#FFFFFF',
-      description: 'My open source projects on GitHub',
-      background_logo: 'GitHub_white.svg',
-      background_color: '#000000',
-    },
-    {
-      link: 'https://cv.schreck.berlin',
-      description: 'View my CV',
-      background_logo: 'AngularCV_white_transparent.svg',
-      background_logo_size: 'contain',
-      background_picture: 'cover.jpg',
-      background_picture_size: 'cover',
-      background_color: '#FFFFFF',
-    },
-    {
-      link: 'https://medium.com/@stegschreck',
-      background_logo: 'Medium.svg',
-      background_color: '#FFFFFF',
-    },
     // {
-    //   link: 'https://twitter.com/StegSchreck',
-    //   background_logo: 'Twitter.svg',
-    //   background_logo_size: 'contain',
-    //   background_color: '#1DA1F2',
+    //   link: "https://github.com/StegSchreck", // optional
+    //   title: "https://github.com/StegSchreck", // optional
+    //   description: "My open source projects on GitHub", // optional
+    //   text_color: "#ffffff", // defaults to '#4A86E8' - affects both title and description (if set)
+    //   background_logo: "GitHub_white.svg", // optional
+    //   background_logo_size: "70%", // defaults to '50%'
+    //   background_picture: "cover.jpg", // optional
+    //   background_picture_size: "cover", // defaults to 'cover'
+    //   background_color: "#000000", // defaults to '#282c34'
     // },
+    {
+      link: "https://projects.appili.dev",
+      description: "View my Projects",
+      background_picture: "projects.webp",
+      background_picture_size: "cover",
+      background_logo: "bulb.png",
+      background_logo_size: "40%",
+    },
+    {
+      link: "https://cv.appili.dev",
+      description: "View my Résumé",
+      background_logo: "Angular_full_color_logo.svg",
+      background_logo_size: "25%",
+      background_picture: "angularArch.jpg",
+      background_picture_size: "cover",
+      background_color: "#FFFFFF",
+    },
+    {
+      link: "https://api.appili.dev",
+      text_color: "#FFFFFF",
+      description: "Try my REST APIs",
+      background_logo: "API.png",
+      background_logo_size: "60%",
+      background_picture: "aws.webp",
+      background_picture_size: "cover",
+      background_color: "#FFFFFF",
+    },
+
+    // {
+    //   link: "https://twitter.com/StegSchreck",
+    //   background_logo: "Twitter.svg",
+    //   background_logo_size: "contain",
+    //   background_color: "#1DA1F2",
+    // }
   ],
   settings: {
-    default_link_target: '_blank',
+    default_link_target: "_blank",
   },
 };
