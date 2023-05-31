@@ -14,7 +14,7 @@ export default {
     {
       link: "https://projects.appili.dev",
       description: "View my Projects",
-      background_picture: "projects.jpg",
+      background_picture: "projectsz.jpg",
       background_picture_size: "cover",
       background_logo: "bulb.png",
       background_logo_size: "40%",
