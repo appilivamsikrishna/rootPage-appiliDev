@@ -5,7 +5,7 @@ import data from "../../data";
 
 function App() {
   const defaultItem = {
-    link: "https://app.appili.dev",
+    link: "https://apps.appili.dev",
     description: "View my mobile Apps",
     background_logo: "box6.png",
     background_logo_size: "16%",
